@@ -351,3 +351,134 @@ a {
   display: flex;
   gap: 40px;
 }
+/* =========================== countdown ==================== */
+.countdown {
+  margin-top: 327px;
+}
+.countdown__list {
+  display: flex;
+  width: 862px;
+  height: 131px;
+  /* width: 74vh; */
+  gap: 200px;
+  margin-left: 156px;
+}
+.countdown__item {
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 202px;
+}
+.countdown__item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* ============================ block ===================== */
+.block {
+  margin-top: 264px;
+}
+.block__item {
+  display: flex;
+  gap: 72px;
+}
+.item__left {
+  width: 36%;
+}
+.block__item .item__img {
+  margin: 37px 0px 27px 0px;
+}
+.block__item .desc {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+  margin-bottom: 33px;
+}
+.block__item .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.block__item .desc strong::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #070707;
+  margin: 5px;
+}
+.block__item .desc__student {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.btn--next {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  gap: 30px;
+}
+.btn--next-left {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--color_primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn--next-right {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--color_primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ============== item right ================ */
+.item__right .img__item1 {
+  background-color: pink;
+  border-radius: 50%;
+  margin-top: 94px;
+  margin-right: 242px;
+  margin-left: 222px;
+}
+
+.item__right .img__item2 {
+  position: absolute;
+  top: 0;
+  left: 66px;
+}
+.item__right .img__item3 {
+  background-color: #924883;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item__right .img__item4 {
+  position: absolute;
+  left: 0;
+  bottom: 134px;
+}
+.item__right .img__item5 {
+  position: absolute;
+  bottom: 0;
+  left: 134px;
+}
+.item__right .img__item6 {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+.item__right {
+  display: flex;
+  position: relative;
+  width: 58%;
+}
