@@ -440,3 +440,50 @@ a {
   justify-content: center;
   align-items: center;
 }
+/* code phan block right */
+.item__right .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 676px;
+}
+.item__right .img__item1 {
+  display: flex;
+  left: 0;
+  background-color: #ff8282;
+  border-radius: 50%;
+  margin: 15% auto;
+}
+.item__right .img__item2 {
+  display: flex;
+  position: absolute;
+  left: 144px;
+  top: 0px;
+}
+.item__right .img__item3 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  background-color: #bf83ff;
+  border-radius: 50%;
+  top: 20px;
+}
+.item__right .img__item4 {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 106px;
+}
+.item__right .img__item5 {
+  display: flex;
+  position: absolute;
+  left: 145px;
+  bottom: 0px;
+}
+.item__right .img__item6 {
+  display: flex;
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
