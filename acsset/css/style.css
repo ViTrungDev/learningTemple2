@@ -487,6 +487,7 @@ a {
   right: 32px;
   bottom: 32px;
 }
+/* ================= action ========================= */
 .action {
   background-color: #def6f5;
   margin-top: 130px;
@@ -515,4 +516,37 @@ a {
   justify-self: center;
   border: unset;
   cursor: pointer;
+}
+/* ================== footer ================= */
+.footer .footer__info {
+  display: flex;
+  margin-top: 131px;
+}
+.footer .heading-lv2 {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.footer__info .info__item {
+  width: 20%;
+}
+.footer__info .info__item li {
+  margin-bottom: 20px;
+  color: #535353;
+  font-size: 1.6rem;
+}
+.footer .info__item li a {
+  display: flex;
+}
+.info__item li a .desc {
+  margin-left: 9px;
+  color: #535353;
+  font-size: 1.6rem;
+}
+.copyright {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: #b0b5b4;
 }
